@@ -1,7 +1,7 @@
-# 
+# Step 3
 def place_marker(board, marker, position):
     board[position] = marker
-#
+# Step 4
 def win_check(board, mark):
     return(# ROWS:    
     (board[1] == mark and board[2] == mark and board[3] == mark) or
