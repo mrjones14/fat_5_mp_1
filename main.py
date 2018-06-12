@@ -44,3 +44,4 @@ def win_check(board, mark):
     (board[1] == mark and board[5] == mark and board[9] == mark) or
     (board[3] == mark and board[5] == mark and board[7] == mark))
 
+print('hello')
