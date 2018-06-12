@@ -1,0 +1,3 @@
+def replay():
+    
+    return input('Do yall wanna play again? Enter YES or NO: ').lower().startswith('y')
