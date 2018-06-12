@@ -1,6 +1,3 @@
-
-# Step 1
-
 from IPython.display import clear_output
 
 def display_board(board):
@@ -17,7 +14,6 @@ def display_board(board):
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |')
 
-# Step 2
 
 def player_input():
     marker = ''
@@ -29,12 +25,11 @@ def player_input():
         return ('X', 'O')
     else:
         return ('O', 'X')
-# Step 3
+
 
 def place_marker(board, marker, position):
     board[position] = marker
-    
-# Step 4
+
 
 def win_check(board, mark):
     return(# ROWS:    
@@ -49,4 +44,3 @@ def win_check(board, mark):
     (board[1] == mark and board[5] == mark and board[9] == mark) or
     (board[3] == mark and board[5] == mark and board[7] == mark))
 
-    
